@@ -1,0 +1,6 @@
+{
+  "name": "mon-shop-headless",
+  "scripts": {
+    "dev": "next dev"
+  }
+}
