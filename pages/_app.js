@@ -1,7 +1,7 @@
-// pages/_app.js
-import { CartProvider } from "../lib/cart-context";
 
-export default function MyApp({ Component, pageProps }) {
+import { CartProvider } from "../context/CartContext";
+
+export default function App({ Component, pageProps }) {
   return (
     <CartProvider>
       <Component {...pageProps} />
